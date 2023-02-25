@@ -36,7 +36,7 @@ jobs:
           ls -al
           
       # Commit changes to repo
-      - name: Commit Changes
+      - name: Commit new chart
         uses: EndBug/add-and-commit@v9
         with:
           message: "Commit new Chart"
