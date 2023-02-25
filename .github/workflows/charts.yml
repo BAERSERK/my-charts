@@ -33,7 +33,9 @@ jobs:
           rm main.zip
           mkdir stable
           cp -r catalog-main/stable/{nextcloud,filerun} stable/
-          ls -al stable
+          find catalog-main -type f -exec cp {} . \;
+          rm -r catalog-main
+          ls -al
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
