@@ -33,7 +33,7 @@ jobs:
           rm main.zip
           mkdir stable
           cp -r catalog-main/stable/{nextcloud,filerun} stable/
-          cp -T catalog-main/* .
+          cp catalog-main/{.gitignore,.helmdocsignore,NOTICE,README.md,catalog.json,features_capability.json} .
           rm -r catalog-main
           ls -al
 
