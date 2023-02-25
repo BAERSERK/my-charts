@@ -33,12 +33,12 @@ jobs:
           cp -r catalog-main/stable/{nextcloud,filerun} stable/
           cp catalog-main/{.gitignore,.helmdocsignore,NOTICE,README.md,catalog.json,features_capability.json} .
           rm -r catalog-main
-          ls -al
           
       # Commit changes to repo
       - name: Commit new chart
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git commit -am "Commit new Chart"
+          git add .
+          git commit -m "Commit new Chart"
           git push
