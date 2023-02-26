@@ -97,9 +97,9 @@
             "location": "/home/runner/work/catalog/catalog/stable/prowlarr",
             "healthy": true,
             "healthy_error": null,
-            "latest_version": "8.0.26",
-            "latest_app_version": "1.3.0.2757",
-            "latest_human_version": "1.3.0.2757_8.0.26",
+            "latest_version": "8.0.27",
+            "latest_app_version": "1.3.1.2796",
+            "latest_human_version": "1.3.1.2796_8.0.27",
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/prowlarr.png"
         },
         "spotweb": {
@@ -1411,9 +1411,9 @@
             "location": "/home/runner/work/catalog/catalog/stable/readarr",
             "healthy": true,
             "healthy_error": null,
-            "latest_version": "13.0.14",
-            "latest_app_version": "0.1.3.1584",
-            "latest_human_version": "0.1.3.1584_13.0.14",
+            "latest_version": "13.0.15",
+            "latest_app_version": "0.1.4.1596",
+            "latest_human_version": "0.1.4.1596_13.0.15",
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/readarr.png"
         },
         "speedtest-exporter": {
@@ -1976,9 +1976,9 @@
             "location": "/home/runner/work/catalog/catalog/stable/ztcuui-aio",
             "healthy": true,
             "healthy_error": null,
-            "latest_version": "3.0.9",
-            "latest_app_version": "1.2.11",
-            "latest_human_version": "1.2.11_3.0.9",
+            "latest_version": "3.0.10",
+            "latest_app_version": "1.2.12",
+            "latest_human_version": "1.2.12_3.0.10",
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/ztcuui-aio.png"
         },
         "octoprint": {
@@ -2628,9 +2628,9 @@
             "location": "/home/runner/work/catalog/catalog/stable/calibre",
             "healthy": true,
             "healthy_error": null,
-            "latest_version": "9.0.20",
+            "latest_version": "9.0.21",
             "latest_app_version": "6.13.0",
-            "latest_human_version": "6.13.0_9.0.20",
+            "latest_human_version": "6.13.0_9.0.21",
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/calibre.png"
         },
         "home-assistant": {
@@ -4022,9 +4022,9 @@
             "location": "/home/runner/work/catalog/catalog/stable/ddns-go",
             "healthy": true,
             "healthy_error": null,
-            "latest_version": "4.0.21",
-            "latest_app_version": "4.5.5",
-            "latest_human_version": "4.5.5_4.0.21",
+            "latest_version": "4.0.22",
+            "latest_app_version": "4.5.6",
+            "latest_human_version": "4.5.6_4.0.22",
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/ddns-go.png"
         },
         "habridge": {
@@ -5281,9 +5281,9 @@
             "location": "/home/runner/work/catalog/catalog/stable/uptime-kuma",
             "healthy": true,
             "healthy_error": null,
-            "latest_version": "5.0.20",
-            "latest_app_version": "1.20.1",
-            "latest_human_version": "1.20.1_5.0.20",
+            "latest_version": "5.0.21",
+            "latest_app_version": "1.20.2",
+            "latest_human_version": "1.20.2_5.0.21",
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/uptime-kuma.png"
         },
         "guacd": {
@@ -5463,9 +5463,9 @@
             "location": "/home/runner/work/catalog/catalog/stable/ntfy",
             "healthy": true,
             "healthy_error": null,
-            "latest_version": "4.0.13",
-            "latest_app_version": "2.0.1",
-            "latest_human_version": "2.0.1_4.0.13",
+            "latest_version": "4.0.14",
+            "latest_app_version": "2.1.0",
+            "latest_human_version": "2.1.0_4.0.14",
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/ntfy.png"
         },
         "teedy": {
@@ -10479,9 +10479,9 @@
             "location": "/home/runner/work/catalog/catalog/incubator/scrypted",
             "healthy": true,
             "healthy_error": null,
-            "latest_version": "0.0.5",
-            "latest_app_version": "0.6.23",
-            "latest_human_version": "0.6.23_0.0.5",
+            "latest_version": "0.0.6",
+            "latest_app_version": "0.6.24",
+            "latest_human_version": "0.6.24_0.0.6",
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/scrypted.png"
         },
         "tasmoadmin": {
