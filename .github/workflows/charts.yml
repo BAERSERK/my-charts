@@ -28,11 +28,11 @@ jobs:
         run: |
           curl -L -o main.zip https://github.com/truecharts/catalog/archive/refs/heads/main.zip
           unzip -q main.zip
-          rm main.zip
-          mkdir stable
-          cp -r catalog-main/stable/{nextcloud,filerun} stable/
-          cp catalog-main/{.gitignore,.helmdocsignore,NOTICE,README.md,catalog.json,features_capability.json} .
-          rm -r catalog-main
+          rm -f main.zip
+          mkdir -p stable
+          cp -rf catalog-main/stable/{nextcloud,filerun} stable/
+          cp -f catalog-main/{.gitignore,.helmdocsignore,NOTICE,README.md,catalog.json,features_capability.json} .
+          rm -rf catalog-main
           jq 'del(.dependency[], .enterprise[], .incubator[], .stable[] | select((.name != "nextcloud") and (.name != "filerun")))' catalog.json
           
       # Commit changes to repo
