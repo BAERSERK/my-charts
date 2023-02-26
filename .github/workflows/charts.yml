@@ -35,6 +35,7 @@ jobs:
           rm -f main.zip
           mkdir -p stable
           cp -rf catalog-main/stable/{nextcloud,filerun} stable/
+          mkdir -p dependency
           cp -rf catalog-main/dependency/{mariadb,postgresql} dependency/
           cp -f catalog-main/{.gitignore,.helmdocsignore,NOTICE,features_capability.json} .
           jq 'del(.dependency[], .enterprise[], .incubator[], .stable[] | select((.name != "nextcloud") and (.name != "filerun") and (.name != "mariadb") and (.name != "postgresql")))' catalog-main/catalog.json > catalog.json
