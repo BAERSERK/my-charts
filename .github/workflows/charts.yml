@@ -33,6 +33,7 @@ jobs:
           cp -r catalog-main/stable/{nextcloud,filerun} stable/
           cp catalog-main/{.gitignore,.helmdocsignore,NOTICE,README.md,catalog.json,features_capability.json} .
           rm -r catalog-main
+          jq 'del(.dependency[], .enterprise[], .incubator[], .stable[] | select((.name != "nextcloud") and (.name != "filerun")))' catalog.json
           
       # Commit changes to repo
       - name: Commit new chart
