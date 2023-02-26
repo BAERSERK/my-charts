@@ -33,5 +33,34 @@
     }
   },
   "incubator": {},
-  "dependency": {}
+  "dependency": {
+    "mariadb": {
+      "name": "mariadb",
+      "categories": [
+        "database"
+      ],
+      "app_readme": "<p>Fast, reliable, scalable, and easy to use open-source relational database system.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/mariadb\">https://truecharts.org/charts/dependency/mariadb</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "location": "/home/runner/work/catalog/catalog/dependency/mariadb",
+      "healthy": true,
+      "healthy_error": null,
+      "latest_version": "5.0.32",
+      "latest_app_version": "10.10.3",
+      "latest_human_version": "10.10.3_5.0.32",
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png"
+    },
+    "postgresql": {
+      "name": "postgresql",
+      "categories": [
+        "database"
+      ],
+      "app_readme": "<p>PostgresSQL</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/postgresql\">https://truecharts.org/charts/dependency/postgresql</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "location": "/home/runner/work/catalog/catalog/dependency/postgresql",
+      "healthy": true,
+      "healthy_error": null,
+      "latest_version": "11.0.29",
+      "latest_app_version": "14.7.0",
+      "latest_human_version": "14.7.0_11.0.29",
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/postgresql.png"
+    }
+  }
 }
