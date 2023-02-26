@@ -1,4 +1,3 @@
-# catalog
+# Catalog with selected Truecharts charts for my needs
 
-This is just the catalog.
-Please do not PR here as it's automatically generated
+Original GitHub repository: https://github.com/truecharts/catalog
