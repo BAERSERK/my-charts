@@ -43,9 +43,9 @@
       "location": "/home/runner/work/catalog/catalog/dependency/mariadb",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "5.0.34",
-      "latest_app_version": "10.10.3",
-      "latest_human_version": "10.10.3_5.0.34",
+      "latest_version": "5.0.35",
+      "latest_app_version": "10.11.2",
+      "latest_human_version": "10.11.2_5.0.35",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png"
     },
     "postgresql": {
