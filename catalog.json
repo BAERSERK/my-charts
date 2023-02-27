@@ -12,9 +12,9 @@
       "location": "/home/runner/work/catalog/catalog/stable/nextcloud",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "19.0.48",
+      "latest_version": "19.0.49",
       "latest_app_version": "25.0.2",
-      "latest_human_version": "25.0.2_19.0.48",
+      "latest_human_version": "25.0.2_19.0.49",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/nextcloud.png"
     },
     "filerun": {
@@ -43,9 +43,9 @@
       "location": "/home/runner/work/catalog/catalog/dependency/mariadb",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "5.0.32",
+      "latest_version": "5.0.33",
       "latest_app_version": "10.10.3",
-      "latest_human_version": "10.10.3_5.0.32",
+      "latest_human_version": "10.10.3_5.0.33",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png"
     },
     "postgresql": {
@@ -57,9 +57,9 @@
       "location": "/home/runner/work/catalog/catalog/dependency/postgresql",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "11.0.29",
+      "latest_version": "11.0.30",
       "latest_app_version": "14.7.0",
-      "latest_human_version": "14.7.0_11.0.29",
+      "latest_human_version": "14.7.0_11.0.30",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/postgresql.png"
     }
   }
