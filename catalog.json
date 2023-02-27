@@ -12,9 +12,9 @@
       "location": "/home/runner/work/catalog/catalog/stable/nextcloud",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "19.0.49",
+      "latest_version": "19.0.50",
       "latest_app_version": "25.0.2",
-      "latest_human_version": "25.0.2_19.0.49",
+      "latest_human_version": "25.0.2_19.0.50",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/nextcloud.png"
     },
     "filerun": {
