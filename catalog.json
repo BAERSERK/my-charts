@@ -43,9 +43,9 @@
       "location": "/home/runner/work/catalog/catalog/dependency/mariadb",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "5.0.33",
+      "latest_version": "5.0.34",
       "latest_app_version": "10.10.3",
-      "latest_human_version": "10.10.3_5.0.33",
+      "latest_human_version": "10.10.3_5.0.34",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png"
     },
     "postgresql": {
@@ -57,9 +57,9 @@
       "location": "/home/runner/work/catalog/catalog/dependency/postgresql",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "11.0.30",
+      "latest_version": "11.0.31",
       "latest_app_version": "14.7.0",
-      "latest_human_version": "14.7.0_11.0.30",
+      "latest_human_version": "14.7.0_11.0.31",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/postgresql.png"
     }
   }
