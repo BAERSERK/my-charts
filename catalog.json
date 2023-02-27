@@ -41,9 +41,9 @@
       "location": "/home/runner/work/catalog/catalog/stable/nextcloud",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "19.0.50",
+      "latest_version": "19.0.51",
       "latest_app_version": "25.0.2",
-      "latest_human_version": "25.0.2_19.0.50",
+      "latest_human_version": "25.0.2_19.0.51",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/nextcloud.png"
     },
     "filerun": {
@@ -55,9 +55,9 @@
       "location": "/home/runner/work/catalog/catalog/stable/filerun",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "6.0.20",
+      "latest_version": "6.0.21",
       "latest_app_version": "latest",
-      "latest_human_version": "latest_6.0.20",
+      "latest_human_version": "latest_6.0.21",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/filerun.png"
     }
   },
