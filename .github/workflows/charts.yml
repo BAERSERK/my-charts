@@ -33,10 +33,13 @@ jobs:
           curl -L -o main.zip https://github.com/truecharts/catalog/archive/refs/heads/main.zip
           unzip -q main.zip
           rm -f main.zip
+          rm -rf dependency
           mkdir -p dependency
           cp -rf catalog-main/dependency/{mariadb,postgresql} dependency/
+          rm -rf enterprise
           mkdir -p enterprise
           cp -rf catalog-main/enterprise/{cert-manager,traefik} enterprise/
+          rm -rf stable
           mkdir -p stable
           cp -rf catalog-main/stable/{nextcloud,filerun} stable/
           cp -f catalog-main/{.gitignore,.helmdocsignore,NOTICE,features_capability.json} .
