@@ -32,19 +32,19 @@
     }
   },
   "stable": {
-    "nextcloud": {
-      "name": "nextcloud",
+    "cloudflared": {
+      "name": "cloudflared",
       "categories": [
-        "cloud"
+        "network"
       ],
-      "app_readme": "<p>A private cloud server that puts the control and security of your own data back into your hands.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/nextcloud\">https://truecharts.org/charts/stable/nextcloud</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-      "location": "/home/runner/work/catalog/catalog/stable/nextcloud",
+      "app_readme": "<p>Client for Cloudflare Tunnel, a daemon that exposes private services through the Cloudflare edge.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/cloudflared\">https://truecharts.org/charts/stable/cloudflared</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "location": "/home/runner/work/catalog/catalog/stable/cloudflared",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "19.0.51",
-      "latest_app_version": "25.0.2",
-      "latest_human_version": "25.0.2_19.0.51",
-      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/nextcloud.png"
+      "latest_version": "3.0.16",
+      "latest_app_version": "2023.2.2",
+      "latest_human_version": "2023.2.2_3.0.16",
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/cloudflared.png"
     },
     "filerun": {
       "name": "filerun",
