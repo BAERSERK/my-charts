@@ -41,9 +41,9 @@ jobs:
           cp -rf catalog-main/enterprise/{cert-manager,traefik} enterprise/
           rm -rf stable
           mkdir -p stable
-          cp -rf catalog-main/stable/{nextcloud,filerun} stable/
+          cp -rf catalog-main/stable/{cloudflared,filerun} stable/
           cp -f catalog-main/{.gitignore,.helmdocsignore,NOTICE,features_capability.json} .
-          jq 'del(.dependency[], .enterprise[], .incubator[], .stable[] | select((.name != "nextcloud") and (.name != "filerun") and (.name != "cert-manager") and (.name != "traefik") and (.name != "mariadb") and (.name != "postgresql")))' catalog-main/catalog.json > catalog.json
+          jq 'del(.dependency[], .enterprise[], .incubator[], .stable[] | select((.name != "cloudflared") and (.name != "filerun") and (.name != "cert-manager") and (.name != "traefik") and (.name != "mariadb") and (.name != "postgresql")))' catalog-main/catalog.json > catalog.json
           rm -rf catalog-main
           
       # Commit changes to repo
