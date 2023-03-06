@@ -11,9 +11,9 @@
       "location": "/home/runner/work/catalog/catalog/enterprise/traefik",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "16.0.16",
+      "latest_version": "17.0.3",
       "latest_app_version": "2.9.8",
-      "latest_human_version": "2.9.8_16.0.16",
+      "latest_human_version": "2.9.8_17.0.3",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/traefik.png"
     },
     "cert-manager": {
@@ -25,10 +25,27 @@
       "location": "/home/runner/work/catalog/catalog/enterprise/cert-manager",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "0.0.7",
+      "latest_version": "1.0.3",
       "latest_app_version": "latest",
-      "latest_human_version": "latest_0.0.7",
+      "latest_human_version": "latest_1.0.3",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png"
+    }
+  },
+  "dev": {
+    "testapp": {
+      "name": "testapp",
+      "categories": [
+        "media",
+        "test"
+      ],
+      "app_readme": "<p>testing app for truecharts</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dev/testapp\">https://truecharts.org/charts/dev/testapp</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "location": "/home/runner/work/catalog/catalog/dev/testapp",
+      "healthy": true,
+      "healthy_error": null,
+      "latest_version": "0.0.1",
+      "latest_app_version": "0.20.2297",
+      "latest_human_version": "0.20.2297_0.0.1",
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/jackett.png"
     }
   },
   "stable": {
@@ -72,9 +89,9 @@
       "location": "/home/runner/work/catalog/catalog/dependency/mariadb",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "5.0.35",
+      "latest_version": "6.0.5",
       "latest_app_version": "10.11.2",
-      "latest_human_version": "10.11.2_5.0.35",
+      "latest_human_version": "10.11.2_6.0.5",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png"
     },
     "postgresql": {
