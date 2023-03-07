@@ -11,24 +11,24 @@
       "location": "/home/runner/work/catalog/catalog/enterprise/traefik",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "17.0.4",
+      "latest_version": "17.0.7",
       "latest_app_version": "2.9.8",
-      "latest_human_version": "2.9.8_17.0.4",
+      "latest_human_version": "2.9.8_17.0.7",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/traefik.png"
     },
-    "cert-manager": {
-      "name": "cert-manager",
+    "vaultwarden": {
+      "name": "vaultwarden",
       "categories": [
-        "core"
+        "security"
       ],
-      "app_readme": "<p>Certificate management for Kubernetes</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/enterprise/cert-manager\">https://truecharts.org/charts/enterprise/cert-manager</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-      "location": "/home/runner/work/catalog/catalog/enterprise/cert-manager",
+      "app_readme": "<p>Unofficial Bitwarden compatible server written in Rust</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/enterprise/vaultwarden\">https://truecharts.org/charts/enterprise/vaultwarden</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "location": "/home/runner/work/catalog/catalog/enterprise/vaultwarden",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "1.0.4",
-      "latest_app_version": "latest",
-      "latest_human_version": "latest_1.0.4",
-      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png"
+      "latest_version": "20.0.6",
+      "latest_app_version": "1.27.0",
+      "latest_human_version": "1.27.0_20.0.6",
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/vaultwarden.png"
     }
   },
   "dev": {
@@ -49,6 +49,20 @@
     }
   },
   "stable": {
+    "vaultwarden": {
+      "name": "vaultwarden",
+      "categories": [
+        "security"
+      ],
+      "app_readme": "<p>Unofficial Bitwarden compatible server written in Rust</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/vaultwarden\">https://truecharts.org/charts/stable/vaultwarden</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "location": "/home/runner/work/catalog/catalog/stable/vaultwarden",
+      "healthy": true,
+      "healthy_error": null,
+      "latest_version": "19.0.23",
+      "latest_app_version": "1.27.0",
+      "latest_human_version": "1.27.0_19.0.23",
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/vaultwarden.png"
+    },
     "cloudflared": {
       "name": "cloudflared",
       "categories": [
@@ -89,24 +103,10 @@
       "location": "/home/runner/work/catalog/catalog/dependency/mariadb",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "6.0.7",
+      "latest_version": "6.0.9",
       "latest_app_version": "10.11.2",
-      "latest_human_version": "10.11.2_6.0.7",
+      "latest_human_version": "10.11.2_6.0.9",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png"
-    },
-    "postgresql": {
-      "name": "postgresql",
-      "categories": [
-        "database"
-      ],
-      "app_readme": "<p>PostgresSQL</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/postgresql\">https://truecharts.org/charts/dependency/postgresql</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-      "location": "/home/runner/work/catalog/catalog/dependency/postgresql",
-      "healthy": true,
-      "healthy_error": null,
-      "latest_version": "11.0.31",
-      "latest_app_version": "14.7.0",
-      "latest_human_version": "14.7.0_11.0.31",
-      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/postgresql.png"
     }
   }
 }
