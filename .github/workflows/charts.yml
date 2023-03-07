@@ -35,15 +35,15 @@ jobs:
           rm -f main.zip
           rm -rf dependency
           mkdir -p dependency
-          cp -rf catalog-main/dependency/{mariadb,postgresql} dependency/
+          cp -rf catalog-main/dependency/mariadb dependency/
           rm -rf enterprise
           mkdir -p enterprise
-          cp -rf catalog-main/enterprise/{cert-manager,traefik} enterprise/
+          cp -rf catalog-main/enterprise/{traefik,vaultwarden} enterprise/
           rm -rf stable
           mkdir -p stable
           cp -rf catalog-main/stable/{cloudflared,external-service} stable/
           cp -f catalog-main/{.gitignore,.helmdocsignore,NOTICE,features_capability.json} .
-          jq 'del(.dependency[], .enterprise[], .incubator[], .stable[] | select((.name != "cloudflared") and (.name != "external-service") and (.name != "cert-manager") and (.name != "traefik") and (.name != "mariadb") and (.name != "postgresql")))' catalog-main/catalog.json > catalog.json
+          jq 'del(.dependency[], .enterprise[], .incubator[], .stable[] | select((.name != "cloudflared") and (.name != "external-service") and (.name != "traefik") and (.name != "vaultwarden") and (.name != "mariadb")))' catalog-main/catalog.json > catalog.json
           rm -rf catalog-main
           
       # Commit changes to repo
