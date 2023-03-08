@@ -1,6 +1,7 @@
 {
   "charts": {},
   "test": {},
+  "incubator": {},
   "enterprise": {
     "traefik": {
       "name": "traefik",
@@ -31,6 +32,22 @@
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/vaultwarden.png"
     }
   },
+  "dependency": {
+    "mariadb": {
+      "name": "mariadb",
+      "categories": [
+        "database"
+      ],
+      "app_readme": "<p>Fast, reliable, scalable, and easy to use open-source relational database system.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/mariadb\">https://truecharts.org/charts/dependency/mariadb</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "location": "/home/runner/work/catalog/catalog/dependency/mariadb",
+      "healthy": true,
+      "healthy_error": null,
+      "latest_version": "6.0.9",
+      "latest_app_version": "10.11.2",
+      "latest_human_version": "10.11.2_6.0.9",
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png"
+    }
+  },
   "dev": {
     "testapp": {
       "name": "testapp",
@@ -49,20 +66,6 @@
     }
   },
   "stable": {
-    "vaultwarden": {
-      "name": "vaultwarden",
-      "categories": [
-        "security"
-      ],
-      "app_readme": "<p>Unofficial Bitwarden compatible server written in Rust</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/vaultwarden\">https://truecharts.org/charts/stable/vaultwarden</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-      "location": "/home/runner/work/catalog/catalog/stable/vaultwarden",
-      "healthy": true,
-      "healthy_error": null,
-      "latest_version": "19.0.23",
-      "latest_app_version": "1.27.0",
-      "latest_human_version": "1.27.0_19.0.23",
-      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/vaultwarden.png"
-    },
     "cloudflared": {
       "name": "cloudflared",
       "categories": [
@@ -90,23 +93,20 @@
       "latest_app_version": "latest",
       "latest_human_version": "latest_8.0.12",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/external-service.png"
-    }
-  },
-  "incubator": {},
-  "dependency": {
-    "mariadb": {
-      "name": "mariadb",
+    },
+    "vaultwarden": {
+      "name": "vaultwarden",
       "categories": [
-        "database"
+        "security"
       ],
-      "app_readme": "<p>Fast, reliable, scalable, and easy to use open-source relational database system.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/dependency/mariadb\">https://truecharts.org/charts/dependency/mariadb</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-      "location": "/home/runner/work/catalog/catalog/dependency/mariadb",
+      "app_readme": "<p>Unofficial Bitwarden compatible server written in Rust</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/vaultwarden\">https://truecharts.org/charts/stable/vaultwarden</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "location": "/home/runner/work/catalog/catalog/stable/vaultwarden",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "6.0.9",
-      "latest_app_version": "10.11.2",
-      "latest_human_version": "10.11.2_6.0.9",
-      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png"
+      "latest_version": "19.0.23",
+      "latest_app_version": "1.27.0",
+      "latest_human_version": "1.27.0_19.0.23",
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/vaultwarden.png"
     }
   }
 }
