@@ -44,9 +44,9 @@
       "location": "/home/runner/work/catalog/catalog/stable/external-service",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "9.0.4",
+      "latest_version": "9.0.5",
       "latest_app_version": "latest",
-      "latest_human_version": "latest_9.0.4",
+      "latest_human_version": "latest_9.0.5",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/external-service.png"
     },
     "vaultwarden": {
@@ -89,9 +89,9 @@
       "location": "/home/runner/work/catalog/catalog/enterprise/traefik",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "17.0.21",
+      "latest_version": "17.0.22",
       "latest_app_version": "2.9.9",
-      "latest_human_version": "2.9.9_17.0.21",
+      "latest_human_version": "2.9.9_17.0.22",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/traefik.png"
     },
     "vaultwarden": {
@@ -103,9 +103,9 @@
       "location": "/home/runner/work/catalog/catalog/enterprise/vaultwarden",
       "healthy": true,
       "healthy_error": null,
-      "latest_version": "20.0.13",
+      "latest_version": "20.0.14",
       "latest_app_version": "1.27.0",
-      "latest_human_version": "1.27.0_20.0.13",
+      "latest_human_version": "1.27.0_20.0.14",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/vaultwarden.png"
     }
   }
