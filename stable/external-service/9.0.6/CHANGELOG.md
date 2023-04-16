@@ -4,6 +4,15 @@
 
 
 
+## [external-service-9.0.6](https://github.com/truecharts/charts/compare/external-service-9.0.5...external-service-9.0.6) (2023-04-16)
+
+### Chore
+
+- update helm general non-major ([#8071](https://github.com/truecharts/charts/issues/8071))
+  
+  
+
+
 ## [external-service-9.0.5](https://github.com/truecharts/charts/compare/external-service-9.0.4...external-service-9.0.5) (2023-04-16)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [external-service-8.0.9](https://github.com/truecharts/charts/compare/external-service-8.0.8...external-service-8.0.9) (2022-12-27)
-
-### Chore
-
-- update helm general non-major ([#5856](https://github.com/truecharts/charts/issues/5856))
-  
-  
-
-
-## [external-service-8.0.8](https://github.com/truecharts/charts/compare/external-service-8.0.7...external-service-8.0.8) (2022-12-26)
 
