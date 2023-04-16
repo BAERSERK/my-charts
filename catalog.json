@@ -49,6 +49,20 @@
       "latest_human_version": "latest_9.0.5",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/external-service.png"
     },
+    "immich": {
+      "name": "immich",
+      "categories": [
+        "media"
+      ],
+      "app_readme": "<p>High performance self-hosted photo and video backup solution.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/immich\">https://truecharts.org/charts/stable/immich</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "location": "/home/runner/work/catalog/catalog/stable/immich",
+      "healthy": true,
+      "healthy_error": null,
+      "latest_version": "5.0.16",
+      "latest_app_version": "1.49.0",
+      "latest_human_version": "1.49.0_5.0.16",
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/immich.png"
+    },
     "vaultwarden": {
       "name": "vaultwarden",
       "categories": [
@@ -62,20 +76,6 @@
       "latest_app_version": "1.27.0",
       "latest_human_version": "1.27.0_19.0.23",
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/vaultwarden.png"
-    },
-    "photoprism": {
-      "name": "photoprism",
-      "categories": [
-        "media"
-      ],
-      "app_readme": "<p>PhotoPrismÂ® is a server-based application for browsing, organizing and sharing your personal photo collection</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/photoprism\">https://truecharts.org/charts/stable/photoprism</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-      "location": "/home/runner/work/catalog/catalog/stable/photoprism",
-      "healthy": true,
-      "healthy_error": null,
-      "latest_version": "14.0.5",
-      "latest_app_version": "221118",
-      "latest_human_version": "221118_14.0.5",
-      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/photoprism.png"
     }
   },
   "incubator": {},
