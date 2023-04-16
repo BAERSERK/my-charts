@@ -41,9 +41,9 @@ jobs:
           cp -rf catalog-main/enterprise/{traefik,vaultwarden} enterprise/
           rm -rf stable
           mkdir -p stable
-          cp -rf catalog-main/stable/{cloudflared,external-service} stable/
+          cp -rf catalog-main/stable/{photoprism,external-service} stable/
           cp -f catalog-main/{.gitignore,.helmdocsignore,NOTICE,features_capability.json} .
-          jq 'del(.dependency[], .enterprise[], .incubator[], .stable[] | select((.name != "cloudflared") and (.name != "external-service") and (.name != "traefik") and (.name != "vaultwarden") and (.name != "mariadb")))' catalog-main/catalog.json > catalog.json
+          jq 'del(.dependency[], .enterprise[], .incubator[], .stable[] | select((.name != "photoprism") and (.name != "external-service") and (.name != "traefik") and (.name != "vaultwarden") and (.name != "mariadb")))' catalog-main/catalog.json > catalog.json
           rm -rf catalog-main
           
       # Commit changes to repo
