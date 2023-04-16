@@ -237,6 +237,7 @@ questions:
           group: Networking and Services
           label: Host-Networking (Complicated)
           schema:
+            hidden: true
             type: boolean
             default: false
         - variable: scaleExternalInterface
@@ -280,41 +281,41 @@ questions:
                                   description: Use DHCP
                                 - value: static
                                   description: Use Static IP
-                    - variable: staticIPConfigurations
-                      label: Static IP Addresses
-                      schema:
-                        type: list
-                        show_if: [["ipam", "=", {"type": "static"}]]
-                        items:
-                          - variable: staticIP
-                            label: Static IP
+                          - variable: staticIPConfigurations
+                            label: Static IP Addresses
                             schema:
-                              type: ipaddr
-                              cidr: true
-                    - variable: staticRoutes
-                      label: Static Routes
-                      schema:
-                        type: list
-                        show_if: [["ipam", "=", {"type": "static"}]]
-                        items:
-                          - variable: staticRouteConfiguration
-                            label: Static Route Configuration
-                            schema:
-                              additional_attrs: true
-                              type: dict
-                              attrs:
-                                - variable: destination
-                                  label: Destination
+                              type: list
+                              show_if: [["type", "=", "static"]]
+                              items:
+                                - variable: staticIP
+                                  label: Static IP
                                   schema:
                                     type: ipaddr
                                     cidr: true
-                                    required: true
-                                - variable: gateway
-                                  label: Gateway
+                          - variable: staticRoutes
+                            label: Static Routes
+                            schema:
+                              type: list
+                              show_if: [["type", "=", "static"]]
+                              items:
+                                - variable: staticRouteConfiguration
+                                  label: Static Route Configuration
                                   schema:
-                                    type: ipaddr
-                                    cidr: false
-                                    required: true
+                                    additional_attrs: true
+                                    type: dict
+                                    attrs:
+                                      - variable: destination
+                                        label: Destination
+                                        schema:
+                                          type: ipaddr
+                                          cidr: true
+                                          required: true
+                                      - variable: gateway
+                                        label: Gateway
+                                        schema:
+                                          type: ipaddr
+                                          cidr: false
+                                          required: true
         - variable: serviceList
           label: Add Manual Custom Services
           group: Networking and Services
