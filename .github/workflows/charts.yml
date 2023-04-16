@@ -38,12 +38,12 @@ jobs:
           cp -rf catalog-main/dependency/mariadb dependency/
           rm -rf enterprise
           mkdir -p enterprise
-          cp -rf catalog-main/enterprise/{traefik,vaultwarden} enterprise/
+          cp -rf catalog-main/enterprise/traefik enterprise/
           rm -rf stable
           mkdir -p stable
           cp -rf catalog-main/stable/{immich,external-service} stable/
           cp -f catalog-main/{.gitignore,.helmdocsignore,NOTICE,features_capability.json} .
-          jq 'del(.dependency[], .enterprise[], .incubator[], .stable[] | select((.name != "immich") and (.name != "external-service") and (.name != "traefik") and (.name != "vaultwarden") and (.name != "mariadb")))' catalog-main/catalog.json > catalog.json
+          jq 'del(.dev[], .dependency[], .enterprise[], .incubator[], .stable[] | select((.name != "immich") and (.name != "external-service") and (.name != "traefik") and (.name != "mariadb")))' catalog-main/catalog.json > catalog.json
           rm -rf catalog-main
           
       # Commit changes to repo
