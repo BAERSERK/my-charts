@@ -4,6 +4,15 @@
 
 
 
+## [redis-6.0.29](https://github.com/truecharts/charts/compare/redis-6.0.28...redis-6.0.29) (2023-04-18)
+
+### Chore
+
+- update helm chart common to 12.4.21 ([#8086](https://github.com/truecharts/charts/issues/8086))
+  
+  
+
+
 ## [redis-6.0.28](https://github.com/truecharts/charts/compare/redis-6.0.27...redis-6.0.28) (2023-04-16)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [redis-6.0.19](https://github.com/truecharts/charts/compare/redis-6.0.18...redis-6.0.19) (2023-04-07)
-
-### Chore
-
-- bump common on redis
-  
-  
-
-
-## [redis-6.0.18](https://github.com/truecharts/charts/compare/redis-6.0.17...redis-6.0.18) (2023-04-05)
 
 ### Chore
